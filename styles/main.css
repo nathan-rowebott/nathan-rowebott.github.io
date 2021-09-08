@@ -1,43 +1,65 @@
-body {
-    max-width: 980px
+.wrapper {
+    border: 1px solid;
+    max-width: 980px;
+    display: flex;
+    justify-self: center;
+    flex-direction: column;
+    margin: auto
 }
 
 
 .header-container {
-
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 .header-title {
-
+    text-transform: uppercase;
+    margin-top: 3.5em;
+    margin-bottom: 0.1em;
+    font-size: 95pt;
 }
 .header-nav {
-
+    padding: 1.5em;
 }
 .header-nav-btn {
-
+    text-transform: uppercase;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
+    font-size: 20pt;
 }
 .header-quote {
-
+    margin-top: 0px;
+    margin-bottom: 500px;
+    font-size: 20pt;
 }
 
 
-.main-blog-container {
+.blog-container {
 
 }
 .main-subtitle {
+    text-transform: uppercase;
 
 }
 .main-gallery {
+    margin-bottom: 400px;
+    display: flex
 
 }
 .main-thumbnail {
+    border: 1px solid;
 
 }
 .main-thumbnail img {
+    border: 1px solid;
 
 }
 
 
 .footer-container {
+    margin-bottom: 400px;
 
 }
 .footer-container img {
