@@ -1,5 +1,9 @@
+body {
+    background-image: url(https://wallpapercave.com/wp/wp2747959.jpg);
+    font-family: Arial;
+    color: rgba(255, 228, 196, 0.925);
+}
 .wrapper {
-    border: 1px solid;
     max-width: 980px;
     display: flex;
     justify-self: center;
@@ -25,6 +29,8 @@
 }
 .header-nav-btn {
     text-transform: uppercase;
+    text-decoration: none;
+    color:orange;
     margin-left: 0.5em;
     margin-right: 0.5em;
     font-size: 20pt;
@@ -37,47 +43,59 @@
 
 
 .blog-container {
-    border: 1px solid;
     display: flex;
     flex-wrap: wrap;
 }
-.main-subtitle {
+#tech-subtitle {
     text-transform: uppercase;
     width: 100%;
-    font-size: 40px;
+    font-size: 50px;
     margin: 0;
     display: flex;
     justify-content: center;
 }
+#personal-subtitle {
+    display: flex;
+    justify-content: center;
+    text-transform: uppercase;
+    width: 100%;
+    font-size: 50px;
+    margin: 0;
+}
 .main-gallery {
-    border: 1px solid;
     margin-bottom: 400px;
     display: flex;
     justify-content: center;
     width: 100%;
 }
 .main-thumbnail {
-    border: 1px solid;
     display: flex;
     flex-direction: column;
+    border: 2px solid whitesmoke;
+    border-radius: 10px;
     margin: 38px;
-    width: 250px;
-    height: 350px;
+    width: 260px;
+    height: 330px;
 }
 .main-thumbnail img {
-    border: 1px solid;
+    border-radius: 10px;
     height: 260px;
 }
-.main-thumbnail p {
+.main-thumbnail a {
     font-size: 14pt;
+    padding: 14px;
     text-align: center;
     text-transform: uppercase;
+    text-decoration: none;
+    color: orange;
 }
 
 
-.footer-container {
-    margin-bottom: 400px;
-
+.footer-container a{
+    font-size: 30px;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: rgba(255, 166, 0, 0.459);
 }
 .footer-container img {
 

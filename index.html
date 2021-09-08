@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="styles/main.css" rel="stylesheet" type="text/css">
-    <title>~ Nathizzle ~</title>
+    <title>Nathan Rowe</title>
   </head>
   <body>
 
@@ -13,43 +13,43 @@
       <header class="header-container">
         <h1 class="header-title">nathan rowe</h1>
         <nav class="header-nav">
-          <button class="header-nav-btn">technology</button>
-          <button class="header-nav-btn">personal</button>
+          <a href="#tech-subtitle" class="header-nav-btn">tech</a>
+          <a href="#personal-subtitle" class="header-nav-btn">personal</a>
         </nav>
         <div class="header-quote">
-          <p>A showcase of skill and knowledge gained throughout my Dev Academy journey</p>
+          <p>A showcase of skill and knowledge gained throughout my <span style="color:rgba(255, 166, 0, 0.671)"> Dev Academy</span> journey</p>
           <img src="" alt="">
         </div>
       </header>
 
       <main>
         <section class="blog-container">
-          <h3 class="main-subtitle">tech blogs</h3>
+          <h3 id="personal-subtitle">personal blogs</h3>
           <div class="main-gallery">
-            <div class="main-thumbnail" href="">
-              <img src="" alt="">
-              <p>what are best practices when using class and id?</p>
+            <div class="main-thumbnail">
+              <img src="https://images.unsplash.com/photo-1520052600632-67420194a58f?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=750&q=80" alt="learning is fun">
+              <a href="./blog/identity-learning-plan.html">learning plan</a>
+            </div>
+            <div class="main-thumbnail">
+              <img src="https://i.imgur.com/p2expKp.jpeg" alt="">
+              <a href="./blog/identity-values.html">identity, values and culture</a>
             </div>
           </div>
         </section>
         <section class="blog-container">
-          <h3 class="main-subtitle">personal blogs</h3>
+          <h3 id="tech-subtitle">tech blogs</h3>
           <div class="main-gallery">
-            <div class="main-thumbnail" href="">
-              <img src="" alt="">
-              <p>learning plan</p>
-            </div>
-            <div class="main-thumbnail" href="">
-              <img src="" alt="">
-              <p>identity, values and culture</p>
+            <div class="main-thumbnail">
+              <img src="http://cuddlesanctuary.com/wp-content/uploads/2018/02/deciding.jpg" alt="class vs id">
+              <a href="./blog/tech-css-concepts.html">best practices when using class and id?</a>
             </div>
           </div>
         </section>
       </main>
 
-      <footer id="footer-container">
+      <footer class="footer-container">
         <img href="" src="" alt="">
-        <p></p>
+        <a href="index.html">back to top</a>
       </footer>
     </div>
 
