@@ -37,24 +37,41 @@
 
 
 .blog-container {
-
+    border: 1px solid;
+    display: flex;
+    flex-wrap: wrap;
 }
 .main-subtitle {
     text-transform: uppercase;
-
+    width: 100%;
+    font-size: 40px;
+    margin: 0;
+    display: flex;
+    justify-content: center;
 }
 .main-gallery {
+    border: 1px solid;
     margin-bottom: 400px;
-    display: flex
-
+    display: flex;
+    justify-content: center;
+    width: 100%;
 }
 .main-thumbnail {
     border: 1px solid;
-
+    display: flex;
+    flex-direction: column;
+    margin: 38px;
+    width: 250px;
+    height: 350px;
 }
 .main-thumbnail img {
     border: 1px solid;
-
+    height: 260px;
+}
+.main-thumbnail p {
+    font-size: 14pt;
+    text-align: center;
+    text-transform: uppercase;
 }
 
 
