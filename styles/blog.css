@@ -24,9 +24,10 @@
 .blog-topic p {
     padding-left: 30px;
     padding-right: 30px;
+    line-height: 2
 }
 .blog-topic li {
-    line-height: 1
+    line-height: 10
 }
 
 span {
