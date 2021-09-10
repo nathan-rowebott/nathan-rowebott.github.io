@@ -1,30 +1,45 @@
 .blog-topic {
+    display: flex;
+    flex-direction:column;
     border: 3px solid bisque;
     border-radius: 10px;
     background-color: rgba(255, 228, 196, 0.575);
     color: black;
     font-size: 14pt;
-    margin-top: 10px;
+    margin-top: 40px;
+    text-align: center;
 }
-.blog-topic img {
+#related-pic {
     border: 3px solid bisque;
     border-radius: 10px;
     width: 180px;
     height: 180px;
-    margin-top: 10px;
+    margin-top: 20px;
     margin-left: 40%;
+}
+.blog-topic img {
+    border: 3px solid bisque;
+    border-radius: 10px;
+    margin-left: 100px;
+    margin-right: 100px;
+    margin-bottom: 20px;
+    margin-top: 20px;
 }
 .blog-topic h3 {
     font-size: 30pt;
-    margin-top: 10px;
-    margin-bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 0px;
     text-transform: uppercase;
     text-align: center;
 }
+.blog-topic h4 {
+    margin-bottom: 0px;
+    font-size: 20px;
+}
 .blog-topic p {
-    padding-left: 30px;
-    padding-right: 30px;
-    line-height: 2
+    padding-left: 100px;
+    padding-right: 100px;
+
 }
 .blog-topic li {
     line-height: 10

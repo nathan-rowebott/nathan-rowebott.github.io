@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title> </title>
+    <title>CSS Concept</title>
     <meta charset="UTF-8">
     <link href="../styles/main.css" rel="stylesheet" type="text/css">
     <link href="../styles/blog.css" rel="stylesheet" type="text/css">
@@ -24,39 +24,48 @@
 
       <main>     
         <section class="blog-topic">
-          <img src="http://cuddlesanctuary.com/wp-content/uploads/2018/02/deciding.jpg" alt=""> <!-- an image relating to the topic -->
-          <h3 class="main-subtitle">What are 'class' and 'id' selectors used for?</h3>
-          <h4></h4>
-          <p>In CSS, class and ID selectors are used to identify various HTML elements. The main benefit of setting class or ID is that you can present the same HTML element differently, depending on its class or ID.</p>
+          <img id="related-pic" src="http://cuddlesanctuary.com/wp-content/uploads/2018/02/deciding.jpg" alt=""> <!-- an image relating to the topic -->
+          <h3 class="main-subtitle">Summarise</h3>
+          <h4>What is a selector?</h4>
+          <p>In CSS, we use selectors to target specific HTML elements. There are 3 main selectors; Tag Selectors, ID Selectors, and Class Selectors.</p>
+          <p>Class and ID Selectors are used to identify HTML elements, ignoring the type of tag. The main benefit of setting class or ID is that you can present the same HTML element differently, depending on its class or ID.</p>
+          <h4>HTML Syntax</h4>
           <img src="../images/css-concept-images/html-concept.jpg" alt="HTML example">
         </section>
 
         <section class="blog-topic">
           <h3 class="main-subtitle">id</h3>
-          <h4>What is an id selector?</h4>
-          <p>The ID selector matches an element based on the value of its id attribute. In order for the element to be selected, its ID attribute must exactly match the value given in the selector. The # symbol and the id of the HTML element name are used to select the desired element.</p>
-          <h4>Syntax</h4>
-          <img src="../images/css-concept-images/id-selector.jpg" alt="CSS id selector">
+          <h4>What is an 'id' selector?</h4>
+          <p>The ID selector matches an element based on the value of its id attribute. Here the id attribute is 'example-id'. In order for the element to be selected, its ID attribute must exactly match the value given in the selector.</p>
+          <h4>CSS Syntax</h4>
+          <img src="../images/css-concept-images/id-selector.jpg" alt="CSS id-selector">
+          <p>The '#' symbol and the id of the HTML element name are used to select the desired element. This comes to '#example-id' as the identifier.</p>
         </section>
 
         <section class="blog-topic">
           <h3 class="main-subtitle">class</h3>
-          <h4>What is a class selector?</h4>
-          <p>The class selector selects elements with a specific class attribute. It matches all the HTML elements based on the contents of their class attribute. The . symbol, along with the class name, is used to select the desired class.</p>
-          <h4>Syntax</h4>
-          <img src="../images/css-concept-images/class-selector.jpg" alt="">
+          <h4>What is a 'class' selector?</h4>
+          <p>The class selector selects elements with a specific class attribute. Here the class attribute is 'example-class'. It matches ALL the HTML elements based on the contents of their class attribute.</p>
+          <h4>CSS Syntax</h4>
+          <img src="../images/css-concept-images/class-selector.jpg" alt="CSS class-selector">
+          <p>The '.' symbol, along with the class name, is used to select the desired class. This comes to '.example-class' as the identifier.</p>
         </section>
 
         <section class="blog-topic">
-            <h3 class="main-subtitle">Result</h3>
-            <p></p>
-            <img src="../images/css-concept-images/result.jpg" alt="CSS Result">
+          <h3 class="main-subtitle">Result</h3>
+          <h4>What is this showing?</h4>
+          <p>Here we have an example that shows what will take precedence (class or id) when both selectors are used. </p>
+          <img src="../images/css-concept-images/result.jpg" alt="CSS Result">
+          <p>Since the 'class' selector is targeting the 'main' div. The CSS rules will apply to everything. This is shown by the <strong>"CSS Concepts"</strong> and <strong>"This is an example of a CLASS selector"</strong> having the same rules. 
+          <br>
+            The ID on the other hand, overwrites the class rules and applies its own ID specified CSS rules </p>
+          <p>Thank you Google</p>
         </section>
       </main>
 
       <footer class="footer-container">
         <img href="" src="" alt="">
-        <a href="./tech-css-concepts.html">back to top</a>
+        <a href="./html-css.html">back to top</a>
       </footer>
     </div>
 
