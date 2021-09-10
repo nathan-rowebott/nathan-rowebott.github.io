@@ -1,5 +1,6 @@
 body {
-    background-image: url(https://wallpapercave.com/wp/wp2747959.jpg);
+    /* background-image: url(https://wallpapercave.com/wp/wp2747959.jpg); */
+    background-color: black;
     font-family: Arial;
     color: rgba(255, 228, 196, 0.925);
 }
@@ -31,8 +32,8 @@ body {
     text-transform: uppercase;
     text-decoration: none;
     color:rgba(255, 166, 0, 0.644);
-    margin-left: 0.75em;
-    margin-right: 0.75em;
+    margin-left: 0.5em;
+    margin-right: 0.5em;
     font-size: 20pt;
 }
 .header-quote {
