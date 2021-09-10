@@ -41,8 +41,9 @@
     padding-right: 100px;
 
 }
-.blog-topic li {
-    line-height: 10
+.blog-topic ul {
+    margin-right: 100px;
+    margin-left: 100px;
 }
 
 span {
