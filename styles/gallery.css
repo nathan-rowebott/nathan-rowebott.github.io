@@ -27,10 +27,11 @@
 .main-thumbnail {
     display: flex;
     flex-direction: column;
-    border: 2px solid whitesmoke;
+    border: 3px solid whitesmoke;
     border-radius: 10px;
     margin: 38px;
-    width: 260px;
+    min-width: 250px;
+    max-width: 250px;
     height: 330px;
 }
 .main-thumbnail img {
@@ -43,5 +44,5 @@
     text-align: center;
     text-transform: uppercase;
     text-decoration: none;
-    color: orange;
+    color: rgba(255, 228, 196, 0.575);
 }
