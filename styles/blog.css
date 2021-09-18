@@ -41,6 +41,9 @@
     padding-right: 100px;
 
 }
+.figure {
+    margin-top: 0px;
+}
 .blog-topic ul {
     margin-right: 100px;
     margin-left: 100px;
@@ -48,4 +51,9 @@
 
 span {
     color: rgb(98, 0, 255);
+}
+
+#dev-tools-link {
+    text-decoration: none;
+    color: rgba(255, 214, 80, 0.651);
 }
