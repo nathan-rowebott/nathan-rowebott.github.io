@@ -45,14 +45,24 @@ body {
 }
 
 
+.footer-container {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.footer-container div {
+    display: flex;
+    justify-content: center;
+}
 .footer-container a{
     font-size: 30px;
     text-transform: uppercase;
     text-decoration: none;
     color: rgba(255, 166, 0, 0.459);
 }
-.footer-container {
-    margin-top: 100px;
-    display: flex;
-    justify-content: center;
+.footer-container img {
+    margin: 20px;
+    border-radius: 50%;
+    border: 3px solid;
 }
