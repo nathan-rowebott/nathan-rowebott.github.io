@@ -66,3 +66,54 @@ body {
     border-radius: 50%;
     border: 3px solid;
 }
+
+@media (min-width: 320px) { 
+    .header-title {
+        font-size: 50px
+    }
+    .header-quote {
+        font-size: 16px;
+    }
+    .header-nav-btn {
+        font-size: 14px;
+    }
+}
+  
+/* Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) { 
+    .header-title {
+        font-size: 70px
+    }
+    .header-quote {
+        font-size: 20px;
+    }
+    .header-nav-btn {
+        font-size: 20px;
+    }
+}
+
+/* Large devices (desktops, 992px and up) */
+@media (min-width: 992px) { 
+    .header-title {
+        font-size: 95px;
+    }
+    .header-quote {
+        font-size: 24px;
+    }
+    .header-nav-btn {
+        font-size: 28px;
+    }
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+    .header-title {
+        font-size: 110px
+    }
+    .header-quote {
+        font-size: 24px;
+    }
+    .header-nav-btn {
+        font-size: 32px;
+    }
+}
